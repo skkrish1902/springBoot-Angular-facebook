@@ -1,0 +1,39 @@
+<div class="full">
+    <form name="myform">
+      <div class="container">
+        <label><b>Username</b></label>
+        <div>
+          <input
+            type="text"
+            name="myname"
+            pattern="_[a-zA-Z0-9]+"
+            placeholder="Enter Username"
+            required
+            ng-model="myname"
+          />
+          
+        </div>
+        <label><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          required
+          
+          minlength="8"
+          name="mypass"
+          ng-model="mypass"
+        />
+
+        <button type="submit" >Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember" /> Remember
+          me
+          <span class="psw"> 
+            
+            <a routerLink="/signup">Sign up</a>
+          </span>
+        </label>
+      </div>
+    </form>
+    </div>
+
