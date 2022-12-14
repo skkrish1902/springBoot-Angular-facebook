@@ -1,0 +1,8 @@
+footer {
+    text-align: center;
+    padding: 3px;
+    /*background-color: DarkSalmon; */
+    background-image: linear-gradient(to left, #3c9a42, #64da35);
+
+    color: white;
+  }

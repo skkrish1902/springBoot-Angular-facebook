@@ -67,9 +67,9 @@ form {
       width: 100%;
     }
   }
- .full{
+.full{
   box-sizing: border-box;
-  background-image: linear-gradient(to left, #3c9a42, #5ccd30);
+  background-color:#90ee90;
   min-height: 100vh;
   } 
   
