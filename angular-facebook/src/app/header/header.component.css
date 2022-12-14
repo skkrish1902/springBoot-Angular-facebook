@@ -10,7 +10,9 @@
     .header {
       overflow: hidden;
       padding: 20px 10px;
-      background-color: #f1f1f1;
+      /*background-color: #f1f1f1; */
+      background-image: linear-gradient(to left, #7cc681, #5ccd30);
+
 
 
     }
